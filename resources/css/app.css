@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.user-name{
+    @apply text-white text-base font-bold ml-2;
+}
+
+.user-img{
+    @apply h-10 w-10 rounded-full object-cover;
+}
+
+
+.input-rounded{
+    @apply rounded-full py-2 w-full outline-none bg-gray-900 ;
+}
